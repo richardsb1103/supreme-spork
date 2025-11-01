@@ -1,0 +1,64 @@
+=== AetherChain Demo ===
+
+1. Initializing AetherChain node...
+Initializing AetherChain: A Peer-to-Decentralized Operating System
+AetherChain initialization complete
+Starting AetherChain node demo_node on 127.0.0.1:8000
+AetherChain node demo_node started
+Wallet address: a6bbf9893ed47b80435f51ad6fbbe3718745a9ac
+Current blockchain height: 1
+
+2. Initial system status:
+   node_id: demo_node
+   is_running: True
+   blockchain_height: 1
+   pending_transactions: 0
+   wallet_balances: {'AETH': 0.0, 'BTC': 0.0, 'ETH': 0.0, 'USDC': 0.0}
+   network_peers: 0
+   emulator_status: active
+   security_model: active
+   timestamp: 1762032275.1149428
+
+3. Creating a sample transaction...
+Executing command: allocate 1GB memory for process P
+Created transaction for command: allocate 1GB memory for process P
+Created privacy commitment: 65e3d9ef8d8122ded0a7f85ae6b490317ca0671f8bd42bccd0feb1b9d43c0524
+Execution result: executed
+Accepted transaction 28a72fc7e6ca88a8b8fd98537ebb4501d1725189452fcfcb9ba57d3ac627e0a1
+   Transaction status: success
+   Transaction ID: 28a72fc7e6ca88a8b8fd98537ebb4501d1725189452fcfcb9ba57d3ac627e0a1
+
+4. Mining a block with pending transactions...
+Mining new block...
+No transactions to mine
+   No transactions to mine
+
+5. Demonstrating wallet operations...
+   Wallet address: a6bbf9893ed47b80435f51ad6fbbe3718745a9ac
+   Initial balance: 0.0 AETH
+Deposited 100.0 AETH to wallet wallet_demo_node
+   Balance after deposit: 100.0 AETH
+Deposited 50.0 AETH to wallet recipient_wallet
+Created transaction of 25.0 AETH to 58abb2d6173a4e46f0e0594412696813c9e9fb14
+Transaction fee: 0.0001 AETH
+Received 25.0 AETH in wallet recipient_wallet
+   Transfer successful!
+   Sender balance: 74.9999 AETH
+   Recipient balance: 75.0 AETH
+
+6. Final system status:
+   node_id: demo_node
+   is_running: True
+   blockchain_height: 1
+   pending_transactions: 0
+   wallet_balances: {'AETH': 74.9999, 'BTC': 0.0, 'ETH': 0.0, 'USDC': 0.0}
+   network_peers: 0
+   emulator_status: active
+   security_model: active
+   timestamp: 1762032275.1175885
+
+7. Stopping AetherChain node...
+Stopping AetherChain node demo_node
+AetherChain node demo_node stopped
+
+=== Demo Complete ===

@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/workspace/aetherchain/demo.py", line 7, in <module>
+    from aetherchain.main import AetherChain
+ModuleNotFoundError: No module named 'aetherchain'

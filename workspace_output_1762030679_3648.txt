@@ -1,0 +1,16 @@
+Title:           AetherChain: A Peer-to-Decentralized Operating System V2
+Producer:        Skia/PDF m143 Google Docs Renderer
+Custom Metadata: no
+Metadata Stream: no
+Tagged:          yes
+UserProperties:  no
+Suspects:        no
+Form:            none
+JavaScript:      no
+Pages:           5
+Encrypted:       no
+Page size:       612 x 792 pts (letter)
+Page rot:        0
+File size:       117901 bytes
+Optimized:       no
+PDF version:     1.4

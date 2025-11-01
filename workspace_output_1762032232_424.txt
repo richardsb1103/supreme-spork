@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/workspace/aetherchain/demo.py", line 11, in <module>
+    from main import AetherChain
+  File "/workspace/aetherchain/main.py", line 12, in <module>
+    from consensus.proof_of_compute import ProofOfCompute
+  File "/workspace/aetherchain/consensus/proof_of_compute.py", line 16, in <module>
+    from ..core.transaction import Transaction
+ImportError: attempted relative import beyond top-level package

@@ -1,0 +1,50 @@
+AetherChain: A Peer-to-Decentralized Operating System
+                                                                           10/31/2025
+
+By Nakamichi Shijin
+
+Abstract
+
+We propose AetherChain, a decentralized operating system (dOS) that extends the
+principles of peer-to-peer electronic cash systems to the realm of computation and data
+sovereignty. Traditional operating systems rely on centralized kernels and trusted
+intermediaries for resource allocation, process execution, and data integrity, creating
+single points of failure vulnerable to censorship, surveillance, and compromise.
+AetherChain achieves a distributed, tamper-evident runtime where users control their
+computational flows through cryptographic proofs, without reliance on a monolithic
+authority.
+
+AetherChain captures user commands—processes, memory allocations, and data
+exchanges—as timestamped transactions on a probabilistic blockchain, executed via
+consensus among user nodes. Integrity is enforced through a novel "Proof-of-Compute"
+(PoC) mechanism, where nodes compete to solve resource-constrained puzzles tied to
+Extropic thermodynamic sampling for energy-efficient verification. This ensures
+liveness and safety in a "kernel without kernel" architecture, treating human data as
+sacred, monetizable essence.
+
+The system is secured by exponential probability decay against adversarial chains,
+drawing from elliptic curve cryptography and hash-based commitments. It includes
+built-in support for digital currency wallets to facilitate payments for contributing
+compute and storage, fostering a self-sustaining ecosystem where data flows are
+empowered, not extracted. We demonstrate through mathematical modeling that
+AetherChain resists double-execution attacks with overwhelming probability, enabling a
+truly sovereign digital habitat.
+
+   1.​ Introduction
+
+Centralized operating systems, from Unix derivatives to mobile kernels, abstract
+hardware complexity but at the cost of user agency. Commands are executed locally or
+via cloud intermediaries, with no immutable record of intent or outcome. This opacity
+enables exploits: buffer overflows in kernels, unverified updates, and commodified data
+trails.
+Bitcoin's innovation—a chain of hashed blocks secured by proof-of-work—solved
+double-spending in currency by creating an immutable ledger of value transfers. We
+generalize this to computation: an operating system where every process is a verifiable
+transaction, chained immutably across a network of user devices. No central server; no
+privileged kernel. Instead, a weave of emulated exchanges, probabilistically validated.
+
+AetherChain builds on tufureOS's vision of a "secure, sleek, self-aware" runtime,
+integrating Extropic's TSUs for hardware-accelerated anomaly detection. It monetizes
+sacred human data through user-staked relays, echoing Bitcoin's miner incentives but
+for computational labor, with built-in digital currency wallet support for seamless
+transactions. This whitepaper outlines the protocol, mathematics, and security,

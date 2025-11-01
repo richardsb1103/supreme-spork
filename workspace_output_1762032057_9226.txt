@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/workspace/aetherchain/tests/test_aetherchain.py", line 18, in <module>
+    from consensus.proof_of_compute import ProofOfCompute
+  File "/workspace/aetherchain/tests/../consensus/proof_of_compute.py", line 16, in <module>
+    from ..core.transaction import Transaction
+ImportError: attempted relative import beyond top-level package

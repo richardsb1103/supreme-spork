@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/workspace/aetherchain/demo.py", line 11, in <module>
+    from main import AetherChain
+  File "/workspace/aetherchain/main.py", line 9, in <module>
+    from .core.transaction import Transaction
+ImportError: attempted relative import with no known parent package

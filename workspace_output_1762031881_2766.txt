@@ -1,0 +1,5 @@
+Obtaining file:///workspace/aetherchain
+ERROR: file:///workspace/aetherchain does not appear to be a Python project: neither 'setup.py' nor 'pyproject.toml' found.
+
+[notice] A new release of pip is available: 24.0 -> 25.3
+[notice] To update, run: pip install --upgrade pip

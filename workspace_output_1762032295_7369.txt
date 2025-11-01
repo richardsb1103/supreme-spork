@@ -1,0 +1,72 @@
+=== AetherChain Core Features Demonstration ===
+
+1. Initializing AetherChain...
+Initializing AetherChain: A Peer-to-Decentralized Operating System
+AetherChain initialization complete
+Starting AetherChain node example_node on 127.0.0.1:8000
+AetherChain node example_node started
+Wallet address: c06b0c6c22d7e480552dce6664b91b6b82b72c29
+Current blockchain height: 1
+
+2. Demonstrating transaction creation and execution...
+   Executing: allocate 2GB memory for process Q
+Executing command: allocate 2GB memory for process Q
+Created transaction for command: allocate 2GB memory for process Q
+Created privacy commitment: 9ccea1a97d3582d4ecf87b3bf954c6efa73c04439f5ff4eb080cdff3894abc34
+Execution result: executed
+Accepted transaction 2bb2d7c747f55b1cee91d79fa8902685d327ff25c0112a913195575a61db8219
+   Success! Transaction ID: 2bb2d7c747f55b1c...
+   Executing: exchange data shard E with node M
+Executing command: exchange data shard E with node M
+Created transaction for command: exchange data shard E with node M
+Created privacy commitment: d6745f75853b1ad878d1ded769583104c730f94cc61877e9d9782329faac0992
+Execution result: executed
+Accepted transaction 804c784ed3c0bcf07890a0b16ed32ea8547139c1e71dbca429fe15376b74a64f
+   Success! Transaction ID: 804c784ed3c0bcf0...
+   Executing: start network service on port 8080
+Executing command: start network service on port 8080
+Created transaction for command: start network service on port 8080
+Created privacy commitment: 716c5ea7f9c3193952c47480ff64d581d8be4caf02d07ce0b000e63d30be294c
+Execution result: executed
+Invalid transaction ac4466fceaa8d393dc2933b41b4258cfbc09e9e876cdade1062344a25a7f5756 received
+Broadcasting transaction ac4466fceaa8d393dc2933b41b4258cfbc09e9e876cdade1062344a25a7f5756 to 0 peers
+   Success! Transaction ID: ac4466fceaa8d393...
+
+3. Demonstrating Proof-of-Compute...
+   Current blockchain height: 1
+Mining new block...
+No transactions to mine
+
+4. Demonstrating Emulator Veil...
+   Active emulators: 1
+   Stored commitments: 6
+
+5. Demonstrating security features...
+   Attempting double-execution of transaction 2bb2d7c747f55b1c...
+
+6. Demonstrating wallet and payment system...
+Deposited 100.0 AETH to wallet provider_wallet
+   Facilitating payment for Compute units...
+Facilitating payment for 150 compute units at 0.001 AETH/unit
+Total amount: 0.15 AETH, Fee: 1.5e-05 AETH
+   Payment failed: Insufficient balance: 0.0 < 0.15001499999999998
+   Facilitating payment for Storage GB...
+Facilitating payment for 75 GB storage at 0.01 AETH/GB
+Total amount: 0.75 AETH, Fee: 7.500000000000001e-05 AETH
+   Payment failed: Insufficient balance: 0.0 < 0.750075
+   Facilitating payment for Data value...
+Monetizing data flow valued at 25.0 AETH
+Originator share: 17.5 AETH
+Network share: 7.5 AETH
+Fee: 0.0025 AETH
+   Payment failed: Insufficient balance: 0.0 < 17.5025
+
+7. Final system status:
+   Blockchain height: 1
+   Pending transactions: 0
+   Wallet balances: {'AETH': 0.0, 'BTC': 0.0, 'ETH': 0.0, 'USDC': 0.0}
+   Network peers: 0
+Stopping AetherChain node example_node
+AetherChain node example_node stopped
+
+=== Demonstration Complete ===
